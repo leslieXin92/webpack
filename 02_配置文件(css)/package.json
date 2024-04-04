@@ -1,0 +1,25 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.custom.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^9.5.4",
+    "style-loader": "^3.3.4"
+  }
+}
