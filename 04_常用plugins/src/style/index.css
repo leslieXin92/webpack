@@ -1,0 +1,19 @@
+@import "./postcss.css";
+
+.content {
+    color: red;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.bg {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rebeccapurple;
+    background-image: url("../image/avatar.jpg");
+    background-size: cover;
+}
