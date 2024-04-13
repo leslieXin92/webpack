@@ -38,13 +38,13 @@ module.exports = {
       {
         test: /\.(png|jpe?g)$/,
         type: 'asset',
+        generator: {
+          filename: 'img/[name]_[hash:6][ext]'
+        },
         parser: {
           dataUrlCondition: {
-            maxSize: 34 * 1024 // 34 kB
+            maxSize: 20 * 1024
           }
-        },
-        generator: {
-          filename: 'img/[hash][ext][query]'
         }
       }
     ]

@@ -1,7 +1,7 @@
 // import 'style-loader!../style/index.style' // 使用css-loader方式一：使用css-loader来编译该文件
 import '../style/index.css'
 import '../style/component.less'
-import avatar1 from '../images/avatar1.png'
+import icon from '../image/icon.png'
 
 const component = () => {
   const element = document.createElement('div')
@@ -12,8 +12,8 @@ const component = () => {
   element.className = 'content'
 
   const imgEl = new Image()
-  imgEl.src = avatar1
-  imgEl.className = 'avatar1'
+  imgEl.src = icon
+  imgEl.className = 'icon'
   element.appendChild(imgEl)
 
   const divWithBgEl = document.createElement('div')
